@@ -1,7 +1,6 @@
 # Spoken Digit Classification
 
 ## Tasks:
-- [x] Retrieve annotations
 - [ ] **Preprocessing**
 - [ ] Feature selection
 - [ ] Dataset split
