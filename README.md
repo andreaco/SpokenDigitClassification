@@ -1,4 +1,15 @@
 # Spoken Digit Classification
+
+## Tasks:
+- [x] Retrieve annotations
+- [ ] **Preprocessing**
+- [ ] Feature selection
+- [ ] Dataset split
+- [ ] Feature extraction
+- [ ] Feature selection
+- [ ] Classification
+- [ ] Performance evaluation  
+
 ## Description:
 Implement a classifier able to predict which digit is pronounced in a short audio excerpt.
 ## Input:
@@ -12,3 +23,4 @@ The results of the classification must be reported as a confusion matrix and, op
 classification system and in which the results are shown and commented (max 8
 pages) to be delivered by May 17th.
 - a link to a repository containing the code (e.g. on GitHub) with minimal comments.
+
