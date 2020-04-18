@@ -40,5 +40,13 @@ The dataset is well distributed, 200 tracks for each of the 10 labels.
 
 ## TODO
 - Check length issues and workarounds
-- Peak-rms issues
+
+# Notes
+## Preprocess
+- [ ] **Normalization (Peak-rms issues)**
+- [ ] **zero pad or trimming (outliers or noise)**
+- [ ] Pre-emphasis
+- [ ] denoising process
+## Features
+- [ ] **MFCC parameters tuning**
 - 
