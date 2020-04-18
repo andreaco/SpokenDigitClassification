@@ -1,6 +1,12 @@
 # Notes
 
-- Preprocessing: zero pad or trimming (outliers or noise)
+## Preprocess
+- Normalization  
+- Pre-emphasis  
+- zero pad or trimming (outliers or noise)
+- denoising process
+
+# Feature Extraction
 - Number of mfccs
-- mean or not mean?
+- mean over mfccs
 - 
