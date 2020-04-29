@@ -12,41 +12,25 @@ pages) to be delivered by May 17th.
 
 
 ### Tasks:
-- [ ] **Preprocessing**
-- [ ] Feature selection
-- [ ] Dataset split
-- [ ] Feature extraction
-- [ ] Feature selection
-- [ ] Classification
-- [ ] Performance evaluation  
+- [ ] Preprocessing
+- [x] Feature selection
+- [x] Dataset split
+- [x] Feature extraction
+- [x] Feature selection
+- [x] Classification
+- [x] Performance evaluation
 
-## Dataset
-- Noise:
-Audio data is pretty noisy overall
-- Length:
-Files have different lengths, some of the files are about 2 seconds long but the meaningful part is like half a second. I suggest to trim the few outliers and zero-pad the others. Having the data with the same length could be useful in a lot of ways, like having temporal/spectral features with the same reference frame and so on.
-- Normalization:
-Some tracks haven't been normalized, maybe it will be useful to normalize them
-- Distribution:
-The dataset is well distributed, 200 tracks for each of the 10 labels.
-
-## Features
-[Mel-frequency cepstrum coefficients]()  
+## Possible Features
+[Mel-frequency cepstrum coefficients](https://en.wikipedia.org/wiki/Mel-frequency_cepstrum)  
 [Linear Predictive Coding](https://en.wikipedia.org/wiki/Linear_predictive_coding])  
 [Phoneme detection](https://dataprivacylab.org/projects/bebe/paper.pdf)  
 [HiddenMarkovModels](https://en.wikipedia.org/wiki/Hidden_Markov_model)  
 [Image processing on spectrogram](https://www.isca-speech.org/archive/archive_papers/interspeech_2014/i14_2533.pdf)  
 
 
-## TODO
-- Check length issues and workarounds
-
 # Notes
 ## Preprocess
-- [ ] **Normalization (Peak-rms issues)**
-- [ ] **zero pad or trimming (outliers or noise)**
+- [ ] Normalization (Peak-rms issues)
+- [x] Zero pad or trimming (outliers or noise)
 - [ ] Pre-emphasis
-- [ ] denoising process
-## Features
-- [ ] **MFCC parameters tuning**
-- 
+- [ ] Denoising processes
