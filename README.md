@@ -12,7 +12,7 @@ pages) to be delivered by May 17th.
 
 
 ### Tasks:
-- [ ] Preprocessing
+- [x] Preprocessing
 - [x] Feature selection
 - [x] Dataset split
 - [x] Feature extraction
@@ -26,11 +26,3 @@ pages) to be delivered by May 17th.
 [Phoneme detection](https://dataprivacylab.org/projects/bebe/paper.pdf)  
 [HiddenMarkovModels](https://en.wikipedia.org/wiki/Hidden_Markov_model)  
 [Image processing on spectrogram](https://www.isca-speech.org/archive/archive_papers/interspeech_2014/i14_2533.pdf)  
-
-
-# Notes
-## Preprocess
-- [ ] Normalization (Peak-rms issues)
-- [x] Zero pad or trimming (outliers or noise)
-- [ ] Pre-emphasis
-- [ ] Denoising processes
