@@ -3,7 +3,6 @@
 Implement a classifier able to predict which digit is pronounced in a short audio excerpt.
 - **Input**  
 The dataset used is the [Free Spoken Digit Dataset](https://github.com/Jakobovski/free-spoken-digit-dataset) (FSDD).
-
 In the folder recodings you will find the audio files named in a specific format. Please read the READ ME distributed with the dataset. The results of the classification must be reported as a confusion matrix and, optionally, other metrics of your choice.
 - **Output**
   - a brief presentation of your work (max 5 minutes) that will be given to the class
